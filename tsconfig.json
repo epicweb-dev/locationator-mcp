@@ -1,0 +1,4 @@
+{
+	"extends": ["@epic-web/config/typescript"],
+	"include": ["index.ts"]
+}

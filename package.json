@@ -2,23 +2,25 @@
   "name": "locationator-mcp",
   "private": true,
   "type": "module",
-  "bin": "index.js",
+  "bin": "index.ts",
   "scripts": {
+    "start": "tsx index.ts",
     "lint": "eslint --fix .",
     "format": "prettier --write .",
     "typecheck": "tsc",
     "inspect": "mcp-inspector"
   },
   "devDependencies": {
-    "@epic-web/config": "^1.19.0",
-    "@modelcontextprotocol/inspector": "^0.10.2",
-    "@types/node": "^22.14.1",
-    "eslint": "^9.25.1",
-    "prettier": "^3.5.3"
+    "@epic-web/config": "^1.21.3",
+    "@modelcontextprotocol/inspector": "^0.17.0",
+    "@types/node": "^24.6.1",
+    "eslint": "^9.36.0",
+    "prettier": "^3.6.2"
   },
   "dependencies": {
     "@epic-web/invariant": "^1.0.0",
-    "@modelcontextprotocol/sdk": "^1.10.2",
+    "@modelcontextprotocol/sdk": "^1.18.2",
+    "tsx": "^4.20.6",
     "zod": "^3.24.3"
   },
   "prettier": "@epic-web/config/prettier",
